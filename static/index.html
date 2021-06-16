@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Track your DOGE</title>
+      <link rel="icon" type="image/x-icon" href="http://assets.stickpng.com/images/5a521f522f93c7a8d5137fc7.png" />
+      <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container_top">
+      <div id="myDIV" class="header">
+        <center>
+          <div class="Title">
+            <h1>DOGE Ledger</h1>
+          </div>
+          <div class="input_P">
+              <span class="input-group-text">Price:</span>
+            <input type="text" id="myPrice" OnKeyPress="chkNumber(event)" class="form" placeholder="USD" >   
+          </div>
+          <div class="input_V">
+              <span class="input-group-text">Volume:</span>
+            <input type="text" id="myVolume" OnKeyPress="chkNumber(event)" class="form" placeholder="DOGE" >   
+          </div>
+          <div class="ErrorMessage"></div>
+          <div class="wrap">
+            <button onclick="btnAdd()" class="btnAdd">Add</button>
+          </div>
+          <div class="container_right">
+            <div class="avg_container"> 
+              <h5>Average (USD/DOGE) :
+                <div class="avg">
+                  <p class="text" id="avg"></p>
+                </div>
+              </h5>
+            </div>
+          </div>
+          <table class="table" id="myTable">
+            <thead>
+              <tr>
+                <th scope="col" style="width: 5rem;"></th>
+                <th scope="col" style="width: 14rem;">Price (USD/DOGE)</th>
+                <th scope="col" style="width: 14rem;">Volume (DOGE)</th>
+                <th scope="col" style="width: 14rem;">Total (USD)</th>
+                <th scope="col" style="width: 5rem;"></th>
+              </tr>
+            </thead>
+            <tbody id="TotalAccount">
+            </tbody>
+            <tfoot>
+              <tr>
+                <th>Total :</th>
+                <th></th>
+                <th id="sum-volume"></th>
+                <th id="total"></th>
+                <th></th>
+              </tr>
+            </tfoot>
+          </table>
+        </center>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="main.js"></script>

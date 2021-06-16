@@ -1,0 +1,189 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(231, 211, 121);
+  background-image: url(https://i.pinimg.com/originals/bd/af/06/bdaf06fb92dfbba5364551a63af28b14.jpg);
+  background-size: 100%;
+}
+
+h1 {
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 35px; 
+  line-height: 35px;
+  border-radius: 1px;
+}
+
+h5 {
+  color: white; 
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  font-size: 20px;
+}
+
+table {
+  margin-top: 20px;
+  cursor: default;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  margin-top: 20px;
+}
+
+thead {
+  background-color: rgb(0, 0, 0); 
+  color: rgb(255, 255, 255);
+  height: 2.5rem;
+}
+
+tfoot {
+  background-color: rgb(0, 0, 0); 
+  color: rgb(255, 255, 255);
+  height: 2.5rem;
+}
+
+tbody {
+  background-color: rgb(255, 255, 255);
+}
+
+.container_top {
+  width: 100%;
+  margin:0;
+}
+
+.Title {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 330px;
+  height: 80px;
+  background-color: black;
+  border-radius: 8px;
+}
+
+.list {
+  text-align: center;
+  height: 2.5rem;
+}
+
+.list:hover {
+  background-color: gainsboro;
+}
+
+.input_P {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: rgb(0, 0, 0);
+  width: 25%;
+  min-width: 250px;
+  padding: 10px;    
+  margin-bottom: 8px;
+  display: inline-block;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.input_V {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: rgb(0, 0, 0);
+  width: 25%;
+  min-width: 250px;
+  padding: 10px;    
+  margin-bottom: 8px;
+  display: inline-block;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  border-radius: 8px;
+  height: 25px;
+  width: 60%;
+}
+
+.btnClose {
+  text-align: center;
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+.btnClose:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  border-radius: 8%;
+}
+
+.wrap {
+  height: 100%;
+  margin: 0.2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnAdd {
+  width: 140px;
+  height: 45px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
+
+.btnAdd:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+  color: rgb(0, 0, 0);
+  transform: translateY(-2px);
+}
+
+.avg_container {
+  border-radius: 5px; 
+  background-color: black; 
+  height: 100%;
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  width: 18%;
+  padding: 5px;
+  min-width: 250px;
+}
+
+.avg {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.ErrorMessage {
+  font-weight: 500;
+  color: red;
+  background: rgb(231, 211, 121);
+  text-align: center;
+  background-clip: content-box;
+}
